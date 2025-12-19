@@ -1728,21 +1728,3 @@
 
   margin: 0;
 }
-
-@media screen and (min-width: 1280px) {
-  body {
-    background: url(../images/noise_transparent@2x.png),
-      radial-gradient(100% 215.42% at 0% 0%, var(--gradient-start) 0%, var(--gradient-end) 100%), var(--gradient-addition);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .intro {
-    background: transparent;
-  }
-
-  .footer {
-    background: transparent;
-  }
-}
